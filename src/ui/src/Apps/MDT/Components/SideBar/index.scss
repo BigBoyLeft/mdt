@@ -1,0 +1,17 @@
+@use '../../variables';
+
+.MDT_SideBar {
+    position: relative;
+    grid-area: SIDEBAR;
+    width: 100%;
+    background-color: variables.$color3;
+    border-radius: 0 0 0 15px;
+    padding: 0;
+    overflow: hidden;
+
+    // .idk_some_cool_button:last-child {
+    //     position: absolute;
+    //     left: 0 ;
+    //     bottom: 0% !important;
+    // }
+}

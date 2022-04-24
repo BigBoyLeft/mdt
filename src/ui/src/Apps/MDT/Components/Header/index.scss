@@ -1,0 +1,58 @@
+@use "../../variables";
+
+.MDT_Header {
+    position: relative;
+    grid-area: HEADER;
+    width: 100%;
+    background-color: variables.$color3;
+    border-radius: 15px 15px 0 0;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 13.5% 73% 13.5%;
+    user-select: none;
+
+    .MDT_Header_MDT {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: 400;
+        color: white;
+        left: 50%;
+        letter-spacing: 2.5px;
+        padding-left: 30px;
+
+        .MDT_Header_Officer_Street {
+            font-size: 0.6em;
+            font-weight: 300;
+            letter-spacing: 3px;
+        }
+    }
+
+    .MDT_Header_Logo {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        place-content: center;
+        letter-spacing: 5px;
+        font-size: 3.5em;
+        font-weight: 400;
+    }
+
+    .MDT_Header_Time {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        place-content: center;
+        right: 20px;
+        top: 15px;
+        font-size: 1.5em;
+        letter-spacing: 3px;
+        font-weight: 400;
+        color: white;
+        border-radius: 0 25px 0 0;
+        text-align: center;
+    }
+}
